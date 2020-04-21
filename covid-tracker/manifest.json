@@ -1,0 +1,13 @@
+{
+    "name": "Covid-19 India Tracker",
+    "description" : "To GEt Novel Coronavirus-19 (nCovid-19) Updates",
+    "version": "1.0.2",
+    "manifest_version": 2,
+    "icons": {"128": "corona-128px.jpg"},
+    "browser_action" : {
+        "default_icon": "corona-19px.jpg",
+        "default_title": "Covid-19",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
