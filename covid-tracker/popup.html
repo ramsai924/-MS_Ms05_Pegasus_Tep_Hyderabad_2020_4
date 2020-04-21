@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Title</title>
+
+    <style>
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 290px;
+        }
+        body {
+            position: relative;
+            /* background: url(img/bg.jpg) no-repeat center; */
+            background-size: cover;
+            /* color: #ffffff; */
+
+        }
+        /* img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        } */
+        p {
+            border-top: 1px solid;
+            margin: 0;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .top-header {
+            padding: 0 20px 20px;
+        }
+        p#totalDeaths {
+            background-color: red;
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="top-header">
+        <h2>Covid-19-Tracker | Live</h2>
+        <img src='https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/in.png' alt="National Flag">
+    </div>
+    <p id="totalCases">Total Cases: </p>
+
+    <p id="activeCases">Active Cases: </p>
+
+    <p id="todayCases">Today's Cases: </p>
+    
+    <p id="tests">Total Tests: </p>
+
+    <p id="totalDeaths">ToTal Deaaths: </p>
+
+    <script defer src="popup.js"></script>
+</body>
+</html>
